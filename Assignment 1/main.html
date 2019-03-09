@@ -57,13 +57,22 @@ body {
   bottom: 0;
   right: 0;
 }
+
+.bubbles {
+  stroke-width: 1px;
+  stroke: black;
+  opacity: .8
+}
+.bubbles:hover {
+  stroke: black;
+}
 </style>
 
 <div class='container'>
   <div id='bubble-chart' class='chart'>
     Loading ...
   </div>
-  <svg id='legend'/>
+  <!-- <svg id='legend'/> -->
 </div>
 
 <script type='text/babel' src="./safety_bubble.js"></script>
